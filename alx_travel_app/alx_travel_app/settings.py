@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'alx_travel_app_0x01.urls'
+ROOT_URLCONF = 'alx_travel_app.urls'
 
 AUTH_USER_MODEL = 'listings.User'
 
@@ -74,7 +74,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'alx_travel_app_0x01.wsgi.application'
+WSGI_APPLICATION = 'alx_travel_app.wsgi.application'
 
 
 # Database

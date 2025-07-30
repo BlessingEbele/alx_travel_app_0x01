@@ -12,3 +12,9 @@ class ListingViewSet(viewsets.ModelViewSet):
 class BookingViewSet(viewsets.ModelViewSet):
     queryset = Booking.objects.all()
     serializer_class = BookingSerializer
+
+
+from django.http import HttpResponse
+
+def home_view(request):
+    return HttpResponse("Welcome to the ALX Travel App Homepage!")
