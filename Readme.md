@@ -1,5 +1,4 @@
 # alx_travel_app_0x01
-# alx_travel_app_0x01
 
 This Django project provides a REST API for managing travel listings and bookings.
 
